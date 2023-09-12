@@ -134,3 +134,4 @@ C:\Users\Federico\Desktop\dev\PianoRollMIDIConverter\obj\Debug\net7.0\PianoRollM
 C:\Users\Federico\Desktop\dev\PianoRollMIDIConverter\obj\Debug\net7.0\PianoRollMIDIConverter.csproj.CopyComplete
 C:\Users\Federico\Desktop\dev\PianoRollMIDIConverter\obj\Debug\net7.0\PianoRollMIDIConverter.genruntimeconfig.cache
 C:\Users\Federico\Desktop\dev\PianoRollMIDIConverter\obj\Debug\net7.0\ref\PianoRollMIDIConverter.dll
+C:\Users\Federico\Desktop\dev\PianoRollMIDIConverter\bin\Debug\net7.0\Newtonsoft.Json.dll

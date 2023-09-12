@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "Pvgn9sPT/Zva1QwDKmkTqDpTQq0QGrr+axG/0vxqUg6d1Sal8iONCAC2cqlT3XqrxrBtEapV2LCkYk894R0kKw==",
+  "dgSpecHash": "nZGxzNrz5HafZxIpjxTI5Iw+LxXtD7xNPnixJpm2w4ZuLkC7y8PXg4M9R410WvCGbvpRTOnOgH4Z7xtyLuetFQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\Federico\\Desktop\\dev\\PianoRollMIDIConverter\\PianoRollMIDIConverter.csproj",
   "expectedPackageFiles": [
@@ -37,6 +37,7 @@
     "C:\\Users\\Federico\\.nuget\\packages\\microsoft.netcore.platforms\\2.1.2\\microsoft.netcore.platforms.2.1.2.nupkg.sha512",
     "C:\\Users\\Federico\\.nuget\\packages\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",
     "C:\\Users\\Federico\\.nuget\\packages\\microsoft.win32.systemevents\\6.0.0\\microsoft.win32.systemevents.6.0.0.nupkg.sha512",
+    "C:\\Users\\Federico\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",
     "C:\\Users\\Federico\\.nuget\\packages\\reactiveui\\18.3.1\\reactiveui.18.3.1.nupkg.sha512",
     "C:\\Users\\Federico\\.nuget\\packages\\skiasharp\\2.88.3\\skiasharp.2.88.3.nupkg.sha512",
     "C:\\Users\\Federico\\.nuget\\packages\\skiasharp.nativeassets.linux\\2.88.3\\skiasharp.nativeassets.linux.2.88.3.nupkg.sha512",

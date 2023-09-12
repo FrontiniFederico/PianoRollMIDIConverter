@@ -5,9 +5,12 @@ For the image processing part of the logic, PRMIDICon is using OpenCV via EmguCV
 
 ## 🧑🏽‍💼TODO: 
 
-- [x] Setting up AvaloniaUI
+- [x] Setting up AvaloniaUI/ReactiveUI
+- [x] dotnet script support
+- [x] piano roll config handling into json
+- [ ] Nice to have: logger handler
 - [ ] Setting up EmguCV
-- [ ] Demo UI
+- [ ] Demo UI 
 - [ ] OpenCV: follow line
 - [ ] OpenCV: vertical lines for notes
 - [ ] MIDIConversion

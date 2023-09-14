@@ -9,9 +9,9 @@ For the image processing part of the logic, PRMIDICon is using OpenCV via EmguCV
 - [x] dotnet script support
 - [x] piano roll config handling into json
 - [ ] Nice to have: logger handler
-- [ ] Setting up EmguCV
+- [x] Setting up EmguCV
 - [ ] Demo UI 
-- [ ] OpenCV: follow line
+- [x] OpenCV: follow line
 - [ ] OpenCV: vertical lines for notes
 - [ ] MIDIConversion
 - [ ] Bindings

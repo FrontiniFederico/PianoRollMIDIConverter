@@ -57,7 +57,7 @@ foreach (var contour in contours)
         {
                 filteredContours.Add(contour);
         }
-        }
+}
 
 // Crea un'immagine vuota per disegnare i contorni
 Mat resultImage = new Mat(image.Size, DepthType.Cv8U, 3);

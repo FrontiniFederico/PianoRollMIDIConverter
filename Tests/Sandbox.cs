@@ -16,7 +16,7 @@ CvInvoke.MedianBlur(image, image, 5);
 CvInvoke.ConvertScaleAbs(image, image, 2.8, -120);
 CvInvoke.CvtColor(image, image, ColorConversion.Bgr2Gray);
 
-CvInvoke.Imshow("immagine in scala di grigi", image);
+CvInvoke.Imshow("Greyscale image", image);
 
 // Attendere che l'utente prema un tasto per chiudere la finestra
 CvInvoke.WaitKey(0);

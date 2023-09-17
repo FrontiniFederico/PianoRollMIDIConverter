@@ -6,6 +6,7 @@ using Emgu.CV.Structure;
 using System.Collections.Generic;
 using Emgu.CV.Util;
 using DynamicData;
+using System.Linq;
 
 string filepath = "C:\\Users\\Federico\\Desktop\\test_linea.png";
 
@@ -124,4 +125,40 @@ CvInvoke.Imshow("Contour Detection", resultImage);
 // Attendere che l'utente prema un tasto per chiudere la finestra
 CvInvoke.WaitKey(0);
 
+// Converti i contorni in liste di punti
+List<List<Point>> contoursAsPoints = filteredContoursWithDistance.ToList();
 
+// Interpola i contorni
+var interpolatedContours = new List<List<Point>>();
+for (int i = 0; i < contoursAsPoints.Count - 1; i++)
+{
+        var interpolatedContour = InterpolateBetweenContours(contoursAsPoints[i], contoursAsPoints[i + 1]);
+        interpolatedContours.Add(interpolatedContour);
+}
+
+// Disegna i contorni interpolati sull'immagine risultante
+CvInvoke.CvtColor(image, resultImage, ColorConversion.Bgr2Bgra);
+foreach (var contour in interpolatedContours)
+{
+        var contourArray = contour.ToArray();
+        CvInvoke.Polylines(resultImage, new VectorOfPoint(contourArray), true, new MCvScalar(0, 0, 255), 2);
+}
+
+// Visualizza l'immagine risultante con i contorni interpolati
+CvInvoke.Imshow("Interpolated Contours", resultImage);
+
+// Attendere che l'utente prema un tasto per chiudere la finestra
+CvInvoke.WaitKey(0);
+
+static List<Point> InterpolateBetweenContours(List<Point> contour1, List<Point> contour2)
+{
+        List<Point> interpolationPoints = new List<Point>();
+
+    // Aggiungi il punto finale del primo contorno
+        interpolationPoints.Add(contour1[contour1.Count - 1]);
+
+    // Aggiungi il punto iniziale del secondo contorno
+        interpolationPoints.Add(contour2[0]);
+
+        return interpolationPoints;
+}

@@ -167,3 +167,4 @@ C:\Users\Federico\Desktop\dev\PianoRollMIDIConverter\bin\Debug\net7.0\runtimes\w
 C:\Users\Federico\Desktop\dev\PianoRollMIDIConverter\bin\Debug\net7.0\Serilog.dll
 C:\Users\Federico\Desktop\dev\PianoRollMIDIConverter\bin\Debug\net7.0\Serilog.Sinks.Console.dll
 C:\Users\Federico\Desktop\dev\PianoRollMIDIConverter\bin\Debug\net7.0\Serilog.Sinks.File.dll
+C:\Users\Federico\Desktop\dev\PianoRollMIDIConverter\bin\Debug\net7.0\MathNet.Numerics.dll

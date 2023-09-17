@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "TcB7qXqIQfHCMhLoCzyJxQnDqvgrBWsxYtejOOw8W0ymgiQ6BMUNDS7c/hv2VHDPkyzcijRB0VJqUw8e3KGU4Q==",
+  "dgSpecHash": "6048I0awe3pOdy/FHmLH48pwtTzyx9crLz182X8PYAXtwpPYqDjkftqr5zohLnQ8VONyfNDzMRmyOeyhVXR+ug==",
   "success": true,
   "projectFilePath": "C:\\Users\\Federico\\Desktop\\dev\\PianoRollMIDIConverter\\PianoRollMIDIConverter.csproj",
   "expectedPackageFiles": [
@@ -32,6 +32,7 @@
     "C:\\Users\\Federico\\.nuget\\packages\\harfbuzzsharp.nativeassets.macos\\2.8.2.3\\harfbuzzsharp.nativeassets.macos.2.8.2.3.nupkg.sha512",
     "C:\\Users\\Federico\\.nuget\\packages\\harfbuzzsharp.nativeassets.webassembly\\2.8.2.3\\harfbuzzsharp.nativeassets.webassembly.2.8.2.3.nupkg.sha512",
     "C:\\Users\\Federico\\.nuget\\packages\\harfbuzzsharp.nativeassets.win32\\2.8.2.3\\harfbuzzsharp.nativeassets.win32.2.8.2.3.nupkg.sha512",
+    "C:\\Users\\Federico\\.nuget\\packages\\mathnet.numerics\\5.0.0\\mathnet.numerics.5.0.0.nupkg.sha512",
     "C:\\Users\\Federico\\.nuget\\packages\\microcom.runtime\\0.11.0\\microcom.runtime.0.11.0.nupkg.sha512",
     "C:\\Users\\Federico\\.nuget\\packages\\microsoft.codeanalysis.analyzers\\3.0.0\\microsoft.codeanalysis.analyzers.3.0.0.nupkg.sha512",
     "C:\\Users\\Federico\\.nuget\\packages\\microsoft.codeanalysis.common\\3.8.0\\microsoft.codeanalysis.common.3.8.0.nupkg.sha512",

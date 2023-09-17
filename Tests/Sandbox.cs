@@ -98,11 +98,63 @@ CvInvoke.CvtColor(image, resultImage, ColorConversion.Bgr2Bgra); // Converti l'i
 // CvInvoke.Polylines(resultImage, contourPoints, true, new MCvScalar(0, 0, 255), 2);
 // }
 
-// Disegna i contorni filtrati in rosso sull'immagine risultante
-CvInvoke.CvtColor(image, resultImage, ColorConversion.Bgr2Bgra); // Converti l'immagine in BGR (a 3 canali con canale alpha)
+// Calcola i centroidi dei contorni
+List<PointF> centroids = new List<PointF>();
+foreach (var contour in filteredContours)
+{
+        float centerX = 0;
+        float centerY = 0;
+
+        foreach (var point in contour)
+        {
+                centerX += point.X;
+                centerY += point.Y;
+        }
+
+        if (contour.Count > 0)
+        {
+                centerX /= contour.Count;
+                centerY /= contour.Count;
+        }
+
+        centroids.Add(new PointF(centerX, centerY));
+}
+
+// Calcola una soglia per la distanza tra i centroidi
+double maxDistance = 700; // con 1000 li becca tutti
+
+// Filtra i contorni rimuovendo quelli troppo lontani dagli altri
+List<List<Point>> filteredContoursWithDistance = new List<List<Point>>();
 for (int i = 0; i < filteredContours.Count; i++)
 {
-        Point[] contourPoints = filteredContours[i].ToArray();
+        bool keepContour = true;
+        for (int j = i + 1; j < filteredContours.Count; j++)
+        {
+                double distance = Math.Sqrt(Math.Pow(centroids[i].X - centroids[j].X, 2) + Math.Pow(centroids[i].Y - centroids[j].Y, 2));
+                if (distance > maxDistance)
+                {
+                keepContour = false;
+                break; // Esci dal ciclo interno se il contorno è troppo lontano
+                }
+        }
+        if (keepContour)
+        {
+                filteredContoursWithDistance.Add(filteredContours[i]);
+        }
+}
+
+
+
+
+
+
+
+
+// Disegna i contorni filtrati in rosso sull'immagine risultante
+CvInvoke.CvtColor(image, resultImage, ColorConversion.Bgr2Bgra); // Converti l'immagine in BGR (a 3 canali con canale alpha)
+for (int i = 0; i < filteredContoursWithDistance.Count; i++)
+{
+        Point[] contourPoints = filteredContoursWithDistance[i].ToArray();
         CvInvoke.Polylines(resultImage, contourPoints, true, new MCvScalar(0, 0, 255), 2);
 }
 

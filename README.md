@@ -8,7 +8,7 @@ For the image processing part of the logic, PRMIDICon is using OpenCV via EmguCV
 - [x] Setting up AvaloniaUI/ReactiveUI
 - [x] dotnet script support
 - [x] piano roll config handling into json
-- [ ] Nice to have: logger handler
+- [x] Nice to have: logger handler
 - [x] Setting up EmguCV
 - [ ] Demo UI 
 - [x] OpenCV: follow line

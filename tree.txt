@@ -1,0 +1,511 @@
+Folder PATH listing for volume Windows
+Volume serial number is 828E-46F1
+C:.
+|   App.axaml
+|   App.axaml.cs
+|   app.manifest
+|   PianoRollMIDIConverter.csproj
+|   Program.cs
+|   README.md
+|   tree.txt
+|   ViewLocator.cs
+|   
++---.vscode
+|       launch.json
+|       tasks.json
+|       
++---Assets
+|       avalonia-logo.ico
+|       
++---bin
+|   \---Debug
+|       +---net6.0
+|       |   |   Avalonia.Base.dll
+|       |   |   Avalonia.Controls.ColorPicker.dll
+|       |   |   Avalonia.Controls.DataGrid.dll
+|       |   |   Avalonia.Controls.dll
+|       |   |   Avalonia.DesignerSupport.dll
+|       |   |   Avalonia.Desktop.dll
+|       |   |   Avalonia.Diagnostics.dll
+|       |   |   Avalonia.Dialogs.dll
+|       |   |   Avalonia.dll
+|       |   |   Avalonia.Fonts.Inter.dll
+|       |   |   Avalonia.FreeDesktop.dll
+|       |   |   Avalonia.Markup.dll
+|       |   |   Avalonia.Markup.Xaml.dll
+|       |   |   Avalonia.Metal.dll
+|       |   |   Avalonia.MicroCom.dll
+|       |   |   Avalonia.Native.dll
+|       |   |   Avalonia.OpenGL.dll
+|       |   |   Avalonia.ReactiveUI.dll
+|       |   |   Avalonia.Remote.Protocol.dll
+|       |   |   Avalonia.Skia.dll
+|       |   |   Avalonia.Themes.Fluent.dll
+|       |   |   Avalonia.Themes.Simple.dll
+|       |   |   Avalonia.Win32.dll
+|       |   |   Avalonia.X11.dll
+|       |   |   DynamicData.dll
+|       |   |   HarfBuzzSharp.dll
+|       |   |   MicroCom.Runtime.dll
+|       |   |   Microsoft.CodeAnalysis.CSharp.dll
+|       |   |   Microsoft.CodeAnalysis.CSharp.Scripting.dll
+|       |   |   Microsoft.CodeAnalysis.dll
+|       |   |   Microsoft.CodeAnalysis.Scripting.dll
+|       |   |   Microsoft.Win32.SystemEvents.dll
+|       |   |   PianoRollMIDIConverter.deps.json
+|       |   |   PianoRollMIDIConverter.dll
+|       |   |   PianoRollMIDIConverter.exe
+|       |   |   PianoRollMIDIConverter.pdb
+|       |   |   PianoRollMIDIConverter.runtimeconfig.json
+|       |   |   ReactiveUI.dll
+|       |   |   SkiaSharp.dll
+|       |   |   Splat.dll
+|       |   |   System.Drawing.Common.dll
+|       |   |   System.IO.Pipelines.dll
+|       |   |   System.Reactive.dll
+|       |   |   Tmds.DBus.Protocol.dll
+|       |   |   
+|       |   +---cs
+|       |   |       Microsoft.CodeAnalysis.CSharp.resources.dll
+|       |   |       Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+|       |   |       Microsoft.CodeAnalysis.resources.dll
+|       |   |       Microsoft.CodeAnalysis.Scripting.resources.dll
+|       |   |       
+|       |   +---de
+|       |   |       Microsoft.CodeAnalysis.CSharp.resources.dll
+|       |   |       Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+|       |   |       Microsoft.CodeAnalysis.resources.dll
+|       |   |       Microsoft.CodeAnalysis.Scripting.resources.dll
+|       |   |       
+|       |   +---es
+|       |   |       Microsoft.CodeAnalysis.CSharp.resources.dll
+|       |   |       Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+|       |   |       Microsoft.CodeAnalysis.resources.dll
+|       |   |       Microsoft.CodeAnalysis.Scripting.resources.dll
+|       |   |       
+|       |   +---fr
+|       |   |       Microsoft.CodeAnalysis.CSharp.resources.dll
+|       |   |       Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+|       |   |       Microsoft.CodeAnalysis.resources.dll
+|       |   |       Microsoft.CodeAnalysis.Scripting.resources.dll
+|       |   |       
+|       |   +---it
+|       |   |       Microsoft.CodeAnalysis.CSharp.resources.dll
+|       |   |       Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+|       |   |       Microsoft.CodeAnalysis.resources.dll
+|       |   |       Microsoft.CodeAnalysis.Scripting.resources.dll
+|       |   |       
+|       |   +---ja
+|       |   |       Microsoft.CodeAnalysis.CSharp.resources.dll
+|       |   |       Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+|       |   |       Microsoft.CodeAnalysis.resources.dll
+|       |   |       Microsoft.CodeAnalysis.Scripting.resources.dll
+|       |   |       
+|       |   +---ko
+|       |   |       Microsoft.CodeAnalysis.CSharp.resources.dll
+|       |   |       Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+|       |   |       Microsoft.CodeAnalysis.resources.dll
+|       |   |       Microsoft.CodeAnalysis.Scripting.resources.dll
+|       |   |       
+|       |   +---pl
+|       |   |       Microsoft.CodeAnalysis.CSharp.resources.dll
+|       |   |       Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+|       |   |       Microsoft.CodeAnalysis.resources.dll
+|       |   |       Microsoft.CodeAnalysis.Scripting.resources.dll
+|       |   |       
+|       |   +---pt-BR
+|       |   |       Microsoft.CodeAnalysis.CSharp.resources.dll
+|       |   |       Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+|       |   |       Microsoft.CodeAnalysis.resources.dll
+|       |   |       Microsoft.CodeAnalysis.Scripting.resources.dll
+|       |   |       
+|       |   +---ru
+|       |   |       Microsoft.CodeAnalysis.CSharp.resources.dll
+|       |   |       Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+|       |   |       Microsoft.CodeAnalysis.resources.dll
+|       |   |       Microsoft.CodeAnalysis.Scripting.resources.dll
+|       |   |       
+|       |   +---runtimes
+|       |   |   +---linux-arm
+|       |   |   |   \---native
+|       |   |   |           libHarfBuzzSharp.so
+|       |   |   |           libSkiaSharp.so
+|       |   |   |           
+|       |   |   +---linux-arm64
+|       |   |   |   \---native
+|       |   |   |           libHarfBuzzSharp.so
+|       |   |   |           libSkiaSharp.so
+|       |   |   |           
+|       |   |   +---linux-musl-x64
+|       |   |   |   \---native
+|       |   |   |           libHarfBuzzSharp.so
+|       |   |   |           libSkiaSharp.so
+|       |   |   |           
+|       |   |   +---linux-x64
+|       |   |   |   \---native
+|       |   |   |           libHarfBuzzSharp.so
+|       |   |   |           libSkiaSharp.so
+|       |   |   |           
+|       |   |   +---osx
+|       |   |   |   \---native
+|       |   |   |           libAvaloniaNative.dylib
+|       |   |   |           libHarfBuzzSharp.dylib
+|       |   |   |           libSkiaSharp.dylib
+|       |   |   |           
+|       |   |   +---unix
+|       |   |   |   \---lib
+|       |   |   |       \---net6.0
+|       |   |   |               System.Drawing.Common.dll
+|       |   |   |               
+|       |   |   +---win
+|       |   |   |   \---lib
+|       |   |   |       \---net6.0
+|       |   |   |               Microsoft.Win32.SystemEvents.dll
+|       |   |   |               System.Drawing.Common.dll
+|       |   |   |               
+|       |   |   +---win-arm64
+|       |   |   |   \---native
+|       |   |   |           av_libglesv2.dll
+|       |   |   |           libHarfBuzzSharp.dll
+|       |   |   |           libSkiaSharp.dll
+|       |   |   |           
+|       |   |   +---win-x64
+|       |   |   |   \---native
+|       |   |   |           av_libglesv2.dll
+|       |   |   |           libHarfBuzzSharp.dll
+|       |   |   |           libSkiaSharp.dll
+|       |   |   |           
+|       |   |   \---win-x86
+|       |   |       \---native
+|       |   |               av_libglesv2.dll
+|       |   |               libHarfBuzzSharp.dll
+|       |   |               libSkiaSharp.dll
+|       |   |               
+|       |   +---tr
+|       |   |       Microsoft.CodeAnalysis.CSharp.resources.dll
+|       |   |       Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+|       |   |       Microsoft.CodeAnalysis.resources.dll
+|       |   |       Microsoft.CodeAnalysis.Scripting.resources.dll
+|       |   |       
+|       |   +---zh-Hans
+|       |   |       Microsoft.CodeAnalysis.CSharp.resources.dll
+|       |   |       Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+|       |   |       Microsoft.CodeAnalysis.resources.dll
+|       |   |       Microsoft.CodeAnalysis.Scripting.resources.dll
+|       |   |       
+|       |   \---zh-Hant
+|       |           Microsoft.CodeAnalysis.CSharp.resources.dll
+|       |           Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+|       |           Microsoft.CodeAnalysis.resources.dll
+|       |           Microsoft.CodeAnalysis.Scripting.resources.dll
+|       |           
+|       +---net7.0
+|       |   |   Avalonia.Base.dll
+|       |   |   Avalonia.Controls.ColorPicker.dll
+|       |   |   Avalonia.Controls.DataGrid.dll
+|       |   |   Avalonia.Controls.dll
+|       |   |   Avalonia.DesignerSupport.dll
+|       |   |   Avalonia.Desktop.dll
+|       |   |   Avalonia.Diagnostics.dll
+|       |   |   Avalonia.Dialogs.dll
+|       |   |   Avalonia.dll
+|       |   |   Avalonia.Fonts.Inter.dll
+|       |   |   Avalonia.FreeDesktop.dll
+|       |   |   Avalonia.Markup.dll
+|       |   |   Avalonia.Markup.Xaml.dll
+|       |   |   Avalonia.Metal.dll
+|       |   |   Avalonia.MicroCom.dll
+|       |   |   Avalonia.Native.dll
+|       |   |   Avalonia.OpenGL.dll
+|       |   |   Avalonia.ReactiveUI.dll
+|       |   |   Avalonia.Remote.Protocol.dll
+|       |   |   Avalonia.Skia.dll
+|       |   |   Avalonia.Themes.Fluent.dll
+|       |   |   Avalonia.Themes.Simple.dll
+|       |   |   Avalonia.Win32.dll
+|       |   |   Avalonia.X11.dll
+|       |   |   DynamicData.dll
+|       |   |   Emgu.CV.dll
+|       |   |   HarfBuzzSharp.dll
+|       |   |   MicroCom.Runtime.dll
+|       |   |   Microsoft.CodeAnalysis.CSharp.dll
+|       |   |   Microsoft.CodeAnalysis.CSharp.Scripting.dll
+|       |   |   Microsoft.CodeAnalysis.dll
+|       |   |   Microsoft.CodeAnalysis.Scripting.dll
+|       |   |   Microsoft.Win32.SystemEvents.dll
+|       |   |   Newtonsoft.Json.dll
+|       |   |   PianoRollMIDIConverter.deps.json
+|       |   |   PianoRollMIDIConverter.dll
+|       |   |   PianoRollMIDIConverter.exe
+|       |   |   PianoRollMIDIConverter.pdb
+|       |   |   PianoRollMIDIConverter.runtimeconfig.json
+|       |   |   ReactiveUI.dll
+|       |   |   SkiaSharp.dll
+|       |   |   Splat.dll
+|       |   |   System.Drawing.Common.dll
+|       |   |   System.IO.Pipelines.dll
+|       |   |   System.Reactive.dll
+|       |   |   Tmds.DBus.Protocol.dll
+|       |   |   
+|       |   +---cs
+|       |   |       Microsoft.CodeAnalysis.CSharp.resources.dll
+|       |   |       Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+|       |   |       Microsoft.CodeAnalysis.resources.dll
+|       |   |       Microsoft.CodeAnalysis.Scripting.resources.dll
+|       |   |       
+|       |   +---de
+|       |   |       Microsoft.CodeAnalysis.CSharp.resources.dll
+|       |   |       Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+|       |   |       Microsoft.CodeAnalysis.resources.dll
+|       |   |       Microsoft.CodeAnalysis.Scripting.resources.dll
+|       |   |       
+|       |   +---es
+|       |   |       Microsoft.CodeAnalysis.CSharp.resources.dll
+|       |   |       Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+|       |   |       Microsoft.CodeAnalysis.resources.dll
+|       |   |       Microsoft.CodeAnalysis.Scripting.resources.dll
+|       |   |       
+|       |   +---fr
+|       |   |       Microsoft.CodeAnalysis.CSharp.resources.dll
+|       |   |       Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+|       |   |       Microsoft.CodeAnalysis.resources.dll
+|       |   |       Microsoft.CodeAnalysis.Scripting.resources.dll
+|       |   |       
+|       |   +---it
+|       |   |       Microsoft.CodeAnalysis.CSharp.resources.dll
+|       |   |       Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+|       |   |       Microsoft.CodeAnalysis.resources.dll
+|       |   |       Microsoft.CodeAnalysis.Scripting.resources.dll
+|       |   |       
+|       |   +---ja
+|       |   |       Microsoft.CodeAnalysis.CSharp.resources.dll
+|       |   |       Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+|       |   |       Microsoft.CodeAnalysis.resources.dll
+|       |   |       Microsoft.CodeAnalysis.Scripting.resources.dll
+|       |   |       
+|       |   +---ko
+|       |   |       Microsoft.CodeAnalysis.CSharp.resources.dll
+|       |   |       Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+|       |   |       Microsoft.CodeAnalysis.resources.dll
+|       |   |       Microsoft.CodeAnalysis.Scripting.resources.dll
+|       |   |       
+|       |   +---pl
+|       |   |       Microsoft.CodeAnalysis.CSharp.resources.dll
+|       |   |       Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+|       |   |       Microsoft.CodeAnalysis.resources.dll
+|       |   |       Microsoft.CodeAnalysis.Scripting.resources.dll
+|       |   |       
+|       |   +---pt-BR
+|       |   |       Microsoft.CodeAnalysis.CSharp.resources.dll
+|       |   |       Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+|       |   |       Microsoft.CodeAnalysis.resources.dll
+|       |   |       Microsoft.CodeAnalysis.Scripting.resources.dll
+|       |   |       
+|       |   +---ru
+|       |   |       Microsoft.CodeAnalysis.CSharp.resources.dll
+|       |   |       Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+|       |   |       Microsoft.CodeAnalysis.resources.dll
+|       |   |       Microsoft.CodeAnalysis.Scripting.resources.dll
+|       |   |       
+|       |   +---runtimes
+|       |   |   +---linux-arm
+|       |   |   |   \---native
+|       |   |   |           libHarfBuzzSharp.so
+|       |   |   |           libSkiaSharp.so
+|       |   |   |           
+|       |   |   +---linux-arm64
+|       |   |   |   \---native
+|       |   |   |           libHarfBuzzSharp.so
+|       |   |   |           libSkiaSharp.so
+|       |   |   |           
+|       |   |   +---linux-musl-x64
+|       |   |   |   \---native
+|       |   |   |           libHarfBuzzSharp.so
+|       |   |   |           libSkiaSharp.so
+|       |   |   |           
+|       |   |   +---linux-x64
+|       |   |   |   \---native
+|       |   |   |           libHarfBuzzSharp.so
+|       |   |   |           libSkiaSharp.so
+|       |   |   |           
+|       |   |   +---osx
+|       |   |   |   \---native
+|       |   |   |           libAvaloniaNative.dylib
+|       |   |   |           libHarfBuzzSharp.dylib
+|       |   |   |           libSkiaSharp.dylib
+|       |   |   |           
+|       |   |   +---unix
+|       |   |   |   \---lib
+|       |   |   |       \---net6.0
+|       |   |   |               System.Drawing.Common.dll
+|       |   |   |               
+|       |   |   +---win
+|       |   |   |   \---lib
+|       |   |   |       \---net6.0
+|       |   |   |               Microsoft.Win32.SystemEvents.dll
+|       |   |   |               System.Drawing.Common.dll
+|       |   |   |               
+|       |   |   +---win-arm64
+|       |   |   |   \---native
+|       |   |   |           av_libglesv2.dll
+|       |   |   |           concrt140.dll
+|       |   |   |           cvextern.dll
+|       |   |   |           libHarfBuzzSharp.dll
+|       |   |   |           libSkiaSharp.dll
+|       |   |   |           msvcp140.dll
+|       |   |   |           msvcp140_1.dll
+|       |   |   |           msvcp140_2.dll
+|       |   |   |           msvcp140_atomic_wait.dll
+|       |   |   |           msvcp140_codecvt_ids.dll
+|       |   |   |           vcruntime140.dll
+|       |   |   |           vcruntime140_1.dll
+|       |   |   |           
+|       |   |   +---win-x64
+|       |   |   |   \---native
+|       |   |   |           av_libglesv2.dll
+|       |   |   |           concrt140.dll
+|       |   |   |           cvextern.dll
+|       |   |   |           libHarfBuzzSharp.dll
+|       |   |   |           libSkiaSharp.dll
+|       |   |   |           msvcp140.dll
+|       |   |   |           msvcp140_1.dll
+|       |   |   |           msvcp140_2.dll
+|       |   |   |           msvcp140_atomic_wait.dll
+|       |   |   |           msvcp140_codecvt_ids.dll
+|       |   |   |           opencv_videoio_ffmpeg480_64.dll
+|       |   |   |           vcruntime140.dll
+|       |   |   |           vcruntime140_1.dll
+|       |   |   |           
+|       |   |   \---win-x86
+|       |   |       \---native
+|       |   |               av_libglesv2.dll
+|       |   |               concrt140.dll
+|       |   |               cvextern.dll
+|       |   |               libHarfBuzzSharp.dll
+|       |   |               libSkiaSharp.dll
+|       |   |               msvcp140.dll
+|       |   |               msvcp140_1.dll
+|       |   |               msvcp140_2.dll
+|       |   |               msvcp140_atomic_wait.dll
+|       |   |               msvcp140_codecvt_ids.dll
+|       |   |               opencv_videoio_ffmpeg480.dll
+|       |   |               vcruntime140.dll
+|       |   |               
+|       |   +---tr
+|       |   |       Microsoft.CodeAnalysis.CSharp.resources.dll
+|       |   |       Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+|       |   |       Microsoft.CodeAnalysis.resources.dll
+|       |   |       Microsoft.CodeAnalysis.Scripting.resources.dll
+|       |   |       
+|       |   +---zh-Hans
+|       |   |       Microsoft.CodeAnalysis.CSharp.resources.dll
+|       |   |       Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+|       |   |       Microsoft.CodeAnalysis.resources.dll
+|       |   |       Microsoft.CodeAnalysis.Scripting.resources.dll
+|       |   |       
+|       |   \---zh-Hant
+|       |           Microsoft.CodeAnalysis.CSharp.resources.dll
+|       |           Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+|       |           Microsoft.CodeAnalysis.resources.dll
+|       |           Microsoft.CodeAnalysis.Scripting.resources.dll
+|       |           
+|       \---net7.0.304
++---Models
+|       ConfigHandler.cs
+|       ImageHandler.cs
+|       
++---obj
+|   |   PianoRollMIDIConverter.csproj.nuget.dgspec.json
+|   |   PianoRollMIDIConverter.csproj.nuget.g.props
+|   |   PianoRollMIDIConverter.csproj.nuget.g.targets
+|   |   project.assets.json
+|   |   project.nuget.cache
+|   |   
+|   \---Debug
+|       +---net6.0
+|       |   |   .NETCoreApp,Version=v6.0.AssemblyAttributes.cs
+|       |   |   apphost.exe
+|       |   |   PianoRollMIDIConverter.AssemblyInfo.cs
+|       |   |   PianoRollMIDIConverter.AssemblyInfoInputs.cache
+|       |   |   PianoRollMIDIConverter.assets.cache
+|       |   |   PianoRollMIDIConverter.csproj.AssemblyReference.cache
+|       |   |   PianoRollMIDIConverter.csproj.CopyComplete
+|       |   |   PianoRollMIDIConverter.csproj.CoreCompileInputs.cache
+|       |   |   PianoRollMIDIConverter.csproj.FileListAbsolute.txt
+|       |   |   PianoRollMIDIConverter.dll
+|       |   |   PianoRollMIDIConverter.GeneratedMSBuildEditorConfig.editorconfig
+|       |   |   PianoRollMIDIConverter.genruntimeconfig.cache
+|       |   |   PianoRollMIDIConverter.pdb
+|       |   |   
+|       |   +---Avalonia
+|       |   |       original.dll
+|       |   |       original.pdb
+|       |   |       original.ref.dll
+|       |   |       references
+|       |   |       resources
+|       |   |       Resources.Inputs.cache
+|       |   |       
+|       |   +---ref
+|       |   |       PianoRollMIDIConverter.dll
+|       |   |       
+|       |   \---refint
+|       |           PianoRollMIDIConverter.dll
+|       |           
+|       +---net7.0
+|       |   |   .NETCoreApp,Version=v7.0.AssemblyAttributes.cs
+|       |   |   apphost.exe
+|       |   |   PianoRollMIDIConverter.AssemblyInfo.cs
+|       |   |   PianoRollMIDIConverter.AssemblyInfoInputs.cache
+|       |   |   PianoRollMIDIConverter.assets.cache
+|       |   |   PianoRollMIDIConverter.csproj.AssemblyReference.cache
+|       |   |   PianoRollMIDIConverter.csproj.CopyComplete
+|       |   |   PianoRollMIDIConverter.csproj.CoreCompileInputs.cache
+|       |   |   PianoRollMIDIConverter.csproj.FileListAbsolute.txt
+|       |   |   PianoRollMIDIConverter.dll
+|       |   |   PianoRollMIDIConverter.GeneratedMSBuildEditorConfig.editorconfig
+|       |   |   PianoRollMIDIConverter.genruntimeconfig.cache
+|       |   |   PianoRollMIDIConverter.pdb
+|       |   |   
+|       |   +---Avalonia
+|       |   |       original.dll
+|       |   |       original.pdb
+|       |   |       original.ref.dll
+|       |   |       references
+|       |   |       resources
+|       |   |       Resources.Inputs.cache
+|       |   |       
+|       |   +---ref
+|       |   |       PianoRollMIDIConverter.dll
+|       |   |       
+|       |   \---refint
+|       |           PianoRollMIDIConverter.dll
+|       |           
+|       \---net7.0.304
+|           |   .NETCoreApp,Version=v7.0.304.AssemblyAttributes.cs
+|           |   PianoRollMIDIConverter.AssemblyInfo.cs
+|           |   PianoRollMIDIConverter.AssemblyInfoInputs.cache
+|           |   PianoRollMIDIConverter.GeneratedMSBuildEditorConfig.editorconfig
+|           |   
+|           +---Avalonia
+|           |       resources
+|           |       Resources.Inputs.cache
+|           |       
+|           +---ref
+|           \---refint
++---PianoRollMIDIConverter
++---Tests
+|   |   main.csx
+|   |   omnisharp.json
+|   |   Sandbox.cs
+|   |   
+|   \---.vscode
+|           launch.json
+|           
++---ViewModels
+|       MainWindowViewModel.cs
+|       ViewModelBase.cs
+|       
+\---Views
+        MainWindow.axaml
+        MainWindow.axaml.cs
+        
